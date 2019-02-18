@@ -1,0 +1,89 @@
+body{
+    background: lightgray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+   
+}
+header{
+   background: lightblue;
+   padding: 20px;
+   height: 5%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80%;
+    
+}
+
+section div{
+    /* background: lightsalmon; */
+    /* automatically flexed across the whole width. */
+    margin: 1px;
+    /* width: 100% */
+    width: 500px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+section div img{
+    display:  flex inline-block;
+    justify-content: center;
+
+}
+.welcome{
+    width: 400px;
+}
+.ghInfo{
+    width: 300px;
+    text-align: center;
+}
+footer{
+    background: lightblue;
+    padding: 5px; 
+    height: 5%;   
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+footer li{
+    display: inline-block;
+    margin-right: 10px;
